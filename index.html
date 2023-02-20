@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+
+</head>
+<body>
+  <i class="fa-solid fa-bed-pulse"></i>
+
+    <script src="js/form.js"></script>
+
+    <header>
+        <h1>Nombre y Apellido</h1>
+        <h2>Puesto deseado</h2>
+        <nav>
+          <ul>
+            <li>Información de contacto:</li>
+            <li>Teléfono: 555-555-5555</li>
+            <li>Correo electrónico: ejemplo@ejemplo.com</li>
+            <li>Dirección: Mi calle, Mi ciudad, Mi país</li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <h3>Perfil profesional</h3>
+        <p>Aquí puedes describir tu experiencia y habilidades relevantes para el puesto deseado</p>
+      </section>
+      <section>
+        <h3>Educación</h3>
+        <ul>
+          <li>
+            <h4>Nombre de la institución</h4>
+            <p>Título obtenido</p>
+            <p>Fecha de inicio - Fecha de finalización</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Experiencia laboral</h3>
+        <ul>
+          <li>
+            <h4>Nombre de la empresa</h4>
+            <p>Puesto desempeñado</p>
+            <p>Fecha de inicio - Fecha de finalización</p>
+            <p>Descripción de las responsabilidades y logros</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Habilidad 1</li>
+          <li>Habilidad 2</li>
+          <li>Habilidad 3</li>
+        </ul>
+      </section>
+
+      <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" onclick="validarFormulario()">Enviar</button>
+      </form>
+
+
+    <footer>
+        Todos los derechos reservados © 2020
+    </footer>
+
+
+
+
+</body>
+</html>
