@@ -7,37 +7,65 @@
     <title>Proyecto Final</title>
 
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/7907144aac.js" crossorigin="anonymous"></script>
 
 
 </head>
 <body>
-  <i class="fa-solid fa-bed-pulse"></i>
-
     <script src="js/form.js"></script>
 
     <header>
-        <h1>Nombre y Apellido</h1>
-        <h2>Puesto deseado</h2>
+ 
+      <div class="container-bar">
+
+        <div class="img-circular">
+          <img src="https://nahusoft.github.io/foto.jpg" alt="Foto CV">
+        </div>
+
+        <div class="barra-iconos">
+          <ul><i2 class="fa fa-home" id="icon1"></i2></ul>
+          <ul><i2 class="fa fa-search" id=icon2></i2></ul>
+          <ul><i2 class="fa fa-envelope" id="icon3"></i2></ul>
+          <ul><i2 class="fa fa-bell" id="icon4"></i2></ul>
+          <ul><i2 class="fa fa-user" id="icon5"></i2></ul>
+        </div>
+
+      </div>
+
+        <h1>Nahuel Roman Andreano</h1> 
+        <i class="fa-solid fa-computer"></i> Dueño de Beta Soluciones Informáticas 
+        
         <nav>
           <ul>
-            <li>Información de contacto:</li>
-            <li>Teléfono: 555-555-5555</li>
-            <li>Correo electrónico: ejemplo@ejemplo.com</li>
-            <li>Dirección: Mi calle, Mi ciudad, Mi país</li>
+            <div class="container">
+            <div><i class="fa-regular fa-calendar"></i><li>Edad: 34 años</li></div>
+            <div><i class="fa-solid fa-phone"></i> <li>Teléfono: +54 9 11 58141058</li></div>
+            <div><i class="fa-regular fa-envelope"></i><li>Correo electrónico: <a href="mailto:nahuelandreano@hotmail.com">nahuelandreano@hotmail.com</a></li></div>  
+            <div><i class="fa-solid fa-location-dot"></i><li>Dirección: <a href="https://goo.gl/maps/sc2ywA25Wh1MWMha6" target="_blank"> Martin Fierro 6019, Villa Bosch, Argentina</a></li></div>
+            </div>
+          
           </ul>
         </nav>
       </header>
-      <section>
+      <section>    
         <h3>Perfil profesional</h3>
-        <p>Aquí puedes describir tu experiencia y habilidades relevantes para el puesto deseado</p>
+        <ul>
+          <li>
+            <h4>Tecnico en Informatica Personal y Profesional</h4>
+          </li>
+        </ul>
+        
       </section>
       <section>
         <h3>Educación</h3>
         <ul>
           <li>
-            <h4>Nombre de la institución</h4>
-            <p>Título obtenido</p>
-            <p>Fecha de inicio - Fecha de finalización</p>
+            <div class="container-bloque">
+              <h4>Secundaria EGB: Instituto PIO XII - Villa Bosch</h4>
+              <h4>Tecnicatura en Informatica Personal y Profesional - Instituto Leonardo Murialdo - Villa Bosch </h4>
+              <h4>Ingenieria en Sistemas - UTN FRBA</h4>
+              <h4>Ingenieria en Computación -  UNTREF</h4>
+            </div>
           </li>
         </ul>
       </section>
@@ -45,10 +73,22 @@
         <h3>Experiencia laboral</h3>
         <ul>
           <li>
-            <h4>Nombre de la empresa</h4>
-            <p>Puesto desempeñado</p>
-            <p>Fecha de inicio - Fecha de finalización</p>
-            <p>Descripción de las responsabilidades y logros</p>
+            <div class="container-bloque">
+            <h4>Happy Tour - Agencia de Turismo</h4>
+            
+            <h5>Sistemas</h5>
+            <h5> Enero 2006 - Diciembre 2008</h5>
+            <h5>Cadete</h5>
+            <h5></h5>
+
+            <h4>Bayfem SRL</h4>
+            <h5>Sistemas</h5>
+            <h5>Enero 2008 - Marzo 2010</h5>
+            <h5>Encargado de mantenimiento de equipos y redes</h5>
+            <h5></h5>
+
+          </div>
+            
           </li>
         </ul>
       </section>
@@ -61,6 +101,7 @@
         </ul>
       </section>
 
+      <p>Contacto:</p>
       <form id="formulario">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
@@ -72,8 +113,9 @@
       </form>
 
 
+      
     <footer>
-        Todos los derechos reservados © 2020
+        Pagina diseñada por Nahuel Roman Andreano - Todos los derechos reservados © 2023
     </footer>
 
 
