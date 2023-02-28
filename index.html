@@ -23,11 +23,10 @@
         </div>
 
         <div class="barra-iconos">
-          <ul><i2 class="fa fa-home" id="icon1"></i2></ul>
-          <ul><i2 class="fa fa-search" id=icon2></i2></ul>
-          <ul><i2 class="fa fa-envelope" id="icon3"></i2></ul>
-          <ul><i2 class="fa fa-bell" id="icon4"></i2></ul>
-          <ul><i2 class="fa fa-user" id="icon5"></i2></ul>
+          <a href="#educacion"><ul><i2 class="fa-solid fa-school" id=icon1></i2></ul></a>
+          <a href="#explab"><ul><i2 class="fa-solid fa-briefcase" id="icon2"></i2></ul></a>
+          <a href="#habilidades"><ul><i2 class="fa-solid fa-person-running" id="icon3"></i2></ul></a>
+          <a href="#contacto"><ul><i2 class="fa-regular fa-address-card" id="icon4"></i2></ul></a>
         </div>
 
       </div>
@@ -47,72 +46,106 @@
           </ul>
         </nav>
       </header>
-      <section>    
-        <h3>Perfil profesional</h3>
+      <section id="educacion">
+
+        <nav> 
+          <ul>
+           <div> <i class="fa-solid fa-school"> </i><li>Educación</li></div>
+          </ul>
+        </nav>
+      
+      
+
         <ul>
-          <li>
-            <h4>Tecnico en Informatica Personal y Profesional</h4>
-          </li>
-        </ul>
-        
-      </section>
-      <section>
-        <h3>Educación</h3>
-        <ul>
-          <li>
             <div class="container-bloque">
-              <h4>Secundaria EGB: Instituto PIO XII - Villa Bosch</h4>
-              <h4>Tecnicatura en Informatica Personal y Profesional - Instituto Leonardo Murialdo - Villa Bosch </h4>
-              <h4>Ingenieria en Sistemas - UTN FRBA</h4>
-              <h4>Ingenieria en Computación -  UNTREF</h4>
+              <h4>Primaria</h4>
+              <li>Escuela Publica Nro 16 - Villa Bosch (1994-2000)</li>
+
+              <h4>Secundaria</h4>
+              <li>Instituto PIO XII - Villa Bosch (2000-2004)</li>
+              <li>Instituto Leonardo Murialdo - Villa Bosch (2004-2006)</li>
+              <li>Tecnico en Informatica Personal y Profesional</li>
+
+              <h4>Universitaria</h4>
+              
+              <li>Ingenieria en Sistemas - UTN FRBA (2006-2012)</li>
+              <li>Ingenieria en Computación - UNTREF (2014-2019)</li>
             </div>
-          </li>
+        
         </ul>
       </section>
-      <section>
-        <h3>Experiencia laboral</h3>
+      <section id="explab">
+        <nav> 
+          <ul>
+           <div> <i class="fa-solid fa-briefcase"> </i><li>Experiencia Laboral</li></div>
+          </ul>
+        </nav>
         <ul>
-          <li>
+          
             <div class="container-bloque">
             <h4>Happy Tour - Agencia de Turismo</h4>
+            <li> Enero 2006 - Diciembre 2008</li>
+            <li>Cadete</li>
             
-            <h5>Sistemas</h5>
-            <h5> Enero 2006 - Diciembre 2008</h5>
-            <h5>Cadete</h5>
-            <h5></h5>
-
             <h4>Bayfem SRL</h4>
-            <h5>Sistemas</h5>
-            <h5>Enero 2008 - Marzo 2010</h5>
-            <h5>Encargado de mantenimiento de equipos y redes</h5>
-            <h5></h5>
+            <li>Sistemas - Encargado de mantenimiento de equipos y redes</li>
+            <li>Enero 2008 - Marzo 2010</li>
+            
+            <h4>Beta Soluciones Informáticas</h4>
+            <li>Dueño, Tecnico en Informatica, Electronica</li>
+            <li>Marzo 2010 - Actualidad</li>
+          
 
           </div>
             
-          </li>
         </ul>
       </section>
-      <section>
-        <h3>Habilidades</h3>
+      <section id="habilidades">
+
+        <nav> 
+          <ul>
+           <div> <i class="fa-solid fa-person-running"> </i><li>Habilidades</li></div>
+          </ul>
+        </nav>
         <ul>
-          <li>Habilidad 1</li>
-          <li>Habilidad 2</li>
-          <li>Habilidad 3</li>
+
+        <ul>
+          <div class="container-bloque">
+          <li>Programador Visual Basic</li>
+          <li>Reparacion de PC, All In One, Notebooks</li>
+          <li>Microsoldadura</li>
+          <li>Soldadura SMD</li>
+          <li>Reconstruccion de pistas y pads</li>
+          <li>Reconstruccion de chasis de Notebooks</li>
+          <li>Reparacion de celulares (Software y hardware)</li>
+          <li>Soldadura electrica</li>
+
+          
+
+        </div>
         </ul>
       </section>
 
-      <p>Contacto:</p>
-      <form id="formulario">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required>
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit" onclick="validarFormulario()">Enviar</button>
-      </form>
+      <hr>
+      <section id="contacto">
+        <nav> 
+          <ul>
+          <div> <i class="fa-regular fa-address-card"> </i><li>Contacto</li></div>
+          </ul>
+        </nav>
+        <ul>
 
+        <form id="formulario">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required>
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit" onclick="validarFormulario()">Enviar</button>
+        </form>
 
+    </section>
       
     <footer>
         Pagina diseñada por Nahuel Roman Andreano - Todos los derechos reservados © 2023

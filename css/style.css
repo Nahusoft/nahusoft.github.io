@@ -77,11 +77,13 @@ body {
       }
 
 
-
+  #educacion, #habilidades, #explab, #contacto{
+    scroll-margin-top: 300px; /* Ajustar para que se mueva debajo del head */
+      }
   
   section {
-    padding: 15px;
-  }
+    padding: 25px;
+    }
 
   
   section h3 {
@@ -98,12 +100,20 @@ body {
     margin-bottom: 10px;
   }
 
+  section div li {
+    font-size: 20px;
+  }
+
   .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
+
+  .container-bloque li {
+    font-size: 12px;
+  }
 
 .container-bar {
     display: flex;
@@ -114,7 +124,7 @@ body {
 }
 
 .container-bloque {
-  padding-left: 10px;
+  padding-left: 20px;
 
 }
 
@@ -156,4 +166,18 @@ body {
     margin-top: 10px;
     text-align: center;
     color: grey;
+  }
+
+
+  @media (max-width: 600px) {
+    .img-circular  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      border: 1px solid #dddddd;
+      border-radius: 50%;
+      overflow: hidden;
+    }
   }
