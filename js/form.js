@@ -1,22 +1,4 @@
 
-/*
-document.addEventListener('DOMContentLoaded', function() {
-
-//* Obtener todos los iconos y agregar un evento de clic a cada uno
-var icons = document.querySelectorAll('.barra-iconos i2');
-icons.forEach(function(icon) {
-  icon.addEventListener('click', function() {
-    //* Obtener el ID del icono clickeado
-    var iconId = this.id;
-    //* Mostrar una alerta con el ID del icono
-    alert(iconId);
-  });
-});
-});
-
-*/
-
-
 function validarFormulario() {
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
