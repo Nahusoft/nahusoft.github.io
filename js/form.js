@@ -49,6 +49,16 @@ function validarFormulario() {
 
  
   
-  
+  function calcularEdad(fechaNacimiento) {
+    var hoy = new Date();
+    var fechaNac = new Date(fechaNacimiento);
+    var edad = hoy.getFullYear() - fechaNac.getFullYear();
+    var mes = hoy.getMonth() - fechaNac.getMonth();
+    if (mes < 0 || (mes === 0 && hoy.getDate() < fechaNac.getDate())) {
+      edad--;
+    }
+    return edad;
+  }
 
-
+  var edad = calcularEdad("12/07/1988"); //Calcula mi edad actual para que esté siempre actualizado el dato
+  document.getElementById('age').innerHTML = text= "Edad: "+ edad + " años";
