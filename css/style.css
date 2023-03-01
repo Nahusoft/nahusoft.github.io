@@ -174,7 +174,7 @@ body {
   }
 
 
-  @media (max-width: 600px) {
+  @media (max-width: 673px) {
     .img-circular  {
       display: flex;
       justify-content: center;
@@ -184,5 +184,9 @@ body {
       border: 1px solid #dddddd;
       border-radius: 50%;
       overflow: hidden;
+    }
+
+    li {
+      font-size:small;
     }
   }
