@@ -60,10 +60,6 @@ document.getElementById('habilidades').addEventListener('click', function () {
 
 
 
-
-
-
-
 function validarFormulario() {
     var nombre = document.getElementById("nombre").value;
     var apellido = document.getElementById("apellido").value;
@@ -87,7 +83,6 @@ function validarFormulario() {
     document.getElementById("formulario").submit();
   }
 
- 
   
   function calcularEdad(fechaNacimiento) {
     var hoy = new Date();
