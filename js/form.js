@@ -26,7 +26,7 @@ document.getElementById('educacion').addEventListener('click', function () {
 
   if (container.style.display === 'none') {
     container.style.display = 'block';
-    document.getElementById('lbledu').innerHTML = text="Educación ▶";
+    document.getElementById('lbledu').innerHTML = text="Educación ▷";
   } else {
     container.style.display = 'none';
     document.getElementById('lbledu').innerHTML = text="Educación ▼";
@@ -39,7 +39,7 @@ document.getElementById('explab').addEventListener('click', function () {
   
   if (container.style.display === 'none') {
     container.style.display = 'block';
-    document.getElementById('lblexp').innerHTML = text="Experiencia Laboral ▶";
+    document.getElementById('lblexp').innerHTML = text="Experiencia Laboral ▷";
   } else {
     container.style.display = 'none';
     document.getElementById('lblexp').innerHTML = text="Experiencia Laboral ▼";
@@ -51,7 +51,7 @@ document.getElementById('habilidades').addEventListener('click', function () {
   
   if (container.style.display === 'none') {
     container.style.display = 'block';
-    document.getElementById('lblhab').innerHTML = text="Habilidades ▶";
+    document.getElementById('lblhab').innerHTML = text="Habilidades ▷";
   } else {
     container.style.display = 'none';
     document.getElementById('lblhab').innerHTML = text="Habilidades ▼";
