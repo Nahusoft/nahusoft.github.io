@@ -20,12 +20,15 @@
           <img src="https://nahusoft.github.io/foto.jpg" alt="Foto CV">
         </div>
 
-        <div class="barra-iconos">
+        <div class="barra-iconos" id="divicons">
           <a href="#educacion"><ul><i2 class="fa-solid fa-school" id="icon1"></i2></ul></a>
           <a href="#explab"><ul><i2 class="fa-solid fa-briefcase" id="icon2"></i2></ul></a>
           <a href="#habilidades"><ul><i2 class="fa-solid fa-person-running" id="icon3"></i2></ul></a>
           <a href="#contacto"><ul><i2 class="fa-regular fa-address-card" id="icon4"></i2></ul></a>
+          <p id="texto">Texto</p>
         </div>
+
+      
 
       </div>
 
@@ -135,15 +138,15 @@
         <ul>
 
         <form id="formulario">
-          <div>
+          <ul>
           <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required>
+          <input type="text" id="nombre" name="nombre" required text="Nombre">
           <label for="apellido">Apellido:</label>
           <input type="text" id="apellido" name="apellido" required>
           <label for="email">Correo Electrónico:</label>
           <input type="email" id="email" name="email" required>
           <button type="submit" onclick="validarFormulario()">Enviar</button>
-          </div>
+          </ul>
           </form>
 
     </section>

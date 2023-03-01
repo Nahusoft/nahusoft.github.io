@@ -1,6 +1,27 @@
-document.getElementById('icon').addEventListener('click', function () {
-  alert ("Hola Mundo")
+document.getElementById('icon1').addEventListener('mouseover', function () {
+  document.getElementById('texto').innerHTML = text= "Educacion";
 })
+
+document.getElementById('icon2').addEventListener('mouseover', function () {
+  document.getElementById('texto').innerHTML = text= "Experiencia Laboral";
+})
+
+document.getElementById('icon3').addEventListener('mouseover', function () {
+  document.getElementById('texto').innerHTML = text= "Habilidades";
+})
+
+document.getElementById('icon4').addEventListener('mouseover', function () {
+  document.getElementById('texto').innerHTML = text= "Contacto";
+})
+
+document.getElementById('divicons').addEventListener('mouseout', function () {
+  document.getElementById('texto').innerHTML = text= "";
+})
+
+
+
+
+
 
 
 function validarFormulario() {
