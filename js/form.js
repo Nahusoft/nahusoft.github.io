@@ -20,6 +20,46 @@ document.getElementById('divicons').addEventListener('mouseout', function () {
 
 
 
+/////////////////////////////////////////////////////////////////////////////
+document.getElementById('educacion').addEventListener('click', function () {
+  const container = document.getElementById('bq-edu');
+
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    document.getElementById('lbledu').innerHTML = text="Educación ▶";
+  } else {
+    container.style.display = 'none';
+    document.getElementById('lbledu').innerHTML = text="Educación ▼";
+  }
+})
+
+
+document.getElementById('explab').addEventListener('click', function () {
+  const container = document.getElementById('bq-exp');
+  
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    document.getElementById('lblexp').innerHTML = text="Experiencia Laboral ▶";
+  } else {
+    container.style.display = 'none';
+    document.getElementById('lblexp').innerHTML = text="Experiencia Laboral ▼";
+  }
+})
+
+document.getElementById('habilidades').addEventListener('click', function () {
+  const container = document.getElementById('bq-hab');
+  
+  if (container.style.display === 'none') {
+    container.style.display = 'block';
+    document.getElementById('lblhab').innerHTML = text="Habilidades ▶";
+  } else {
+    container.style.display = 'none';
+    document.getElementById('lblhab').innerHTML = text="Habilidades ▼";
+  }
+})
+
+
+
 
 
 
