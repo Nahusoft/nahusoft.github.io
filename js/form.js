@@ -1,22 +1,17 @@
-document.getElementById('icon1').addEventListener('mouseover', function () {
-  document.getElementById('texto').innerHTML = text= "Educacion";
-})
+function agregarListener(iconId, texto) {
+  document.getElementById(iconId).addEventListener('mouseover', function () {
+    document.getElementById('texto').innerHTML = texto;
+  });
+}
 
-document.getElementById('icon2').addEventListener('mouseover', function () {
-  document.getElementById('texto').innerHTML = text= "Experiencia Laboral";
-})
-
-document.getElementById('icon3').addEventListener('mouseover', function () {
-  document.getElementById('texto').innerHTML = text= "Habilidades";
-})
-
-document.getElementById('icon4').addEventListener('mouseover', function () {
-  document.getElementById('texto').innerHTML = text= "Contacto";
-})
+agregarListener('icon1', 'Educacion');
+agregarListener('icon2', 'Experiencia Laboral');
+agregarListener('icon3', 'Habilidades');
+agregarListener('icon4', 'Contacto');
 
 document.getElementById('divicons').addEventListener('mouseout', function () {
-  document.getElementById('texto').innerHTML = text= "";
-})
+  document.getElementById('texto').innerHTML = '';
+});
 
 
 

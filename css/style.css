@@ -107,6 +107,10 @@ body {
     padding-left: 30px;
   }
 
+  .text{
+    display: flex;
+
+  }
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -118,17 +122,21 @@ body {
     font-size: 12px;
   }
 
-.container-bar {
+  .container-main {
     display: flex;
     align-items: center;
-    flex: 1;
-    height: 100%;
+}
+
+  .container-bar {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    height: 120px;
     align-items: center; 
 }
 
 .container-bloque {
   padding-left: 20px;
-
 }
 
 .barra-iconos {
