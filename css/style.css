@@ -6,7 +6,7 @@
        font-family: 'Quicksand', sans-serif;
     }
 
-body {
+  body {
     margin: 0;
     padding-top: 300px ;
   }
@@ -75,6 +75,10 @@ body {
     margin-top: 3px;
       }
 
+  form input {
+    padding-right: 10px;
+  }
+
 
   #educacion, #habilidades, #explab, #contacto{
     scroll-margin-top: 300px; /* Ajustar para que se mueva debajo del head */
@@ -90,9 +94,10 @@ body {
   }
   
   section ul {
+    display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-left: 0px;
   }
   
   section li {
@@ -146,7 +151,7 @@ body {
 
 
  
-/*Para poner la imagen dentro de un circulo con un borde gris finito */
+/*Para poner la imagen dentro de un circulo con un borde celeste */
   .img-circular {
     display: flex;
     justify-content: center;
@@ -175,12 +180,14 @@ body {
     text-decoration: none;
   }
 
+
   footer {
     margin-top: 10px;
     text-align: center;
     color: grey;
   }
 
+/*Ajustes para ver desde dispositivos moviles */
 
   @media (max-width: 673px) {
     .img-circular  {
@@ -197,4 +204,13 @@ body {
     li {
       font-size:small;
     }
+
+    h1 {
+     font-size: 25px;
+    }
+
+    section ul {
+    display: block;
+
   }
+}

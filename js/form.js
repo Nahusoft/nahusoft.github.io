@@ -13,9 +13,8 @@ document.getElementById('divicons').addEventListener('mouseout', function () {
   document.getElementById('texto').innerHTML = '';
 });
 
-
-
 /////////////////////////////////////////////////////////////////////////////
+
 document.getElementById('educacion').addEventListener('click', function () {
   const container = document.getElementById('bq-edu');
 
@@ -53,7 +52,7 @@ document.getElementById('habilidades').addEventListener('click', function () {
   }
 })
 
-
+/////////////////////////////////////////////////////////////////////////////
 
 function validarFormulario() {
     var nombre = document.getElementById("nombre").value;
@@ -77,7 +76,7 @@ function validarFormulario() {
     alert("Formulario enviado correctamente!");
     document.getElementById("formulario").submit();
   }
-
+/////////////////////////////////////////////////////////////////////////////
   
   function calcularEdad(fechaNacimiento) {
     var hoy = new Date();
@@ -92,3 +91,5 @@ function validarFormulario() {
 
   var edad = calcularEdad("12/07/1988"); //Calcula mi edad actual para que esté siempre actualizado el dato
   document.getElementById('age').innerHTML = text= "Edad: "+ edad + " años";
+
+  /////////////////////////////////////////////////////////////////////////////
