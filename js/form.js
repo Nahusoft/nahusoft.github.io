@@ -1,3 +1,6 @@
+/////////////////////////////////////////////////////////////////////////////
+//* Mostrar palabras al pasar por arriba de los iconos
+
 function agregarListener(iconId, texto) {
   document.getElementById(iconId).addEventListener('mouseover', function () {
     document.getElementById('texto').innerHTML = texto;
@@ -14,6 +17,7 @@ document.getElementById('divicons').addEventListener('mouseout', function () {
 });
 
 /////////////////////////////////////////////////////////////////////////////
+//* Efecto "contraer" de las secciones
 
 document.getElementById('educacion').addEventListener('click', function () {
   const container = document.getElementById('bq-edu');
@@ -53,6 +57,7 @@ document.getElementById('habilidades').addEventListener('click', function () {
 })
 
 /////////////////////////////////////////////////////////////////////////////
+//* Valido los campos para habilitar el submit
 
 function validarFormulario() {
     var nombre = document.getElementById("nombre").value;
@@ -77,6 +82,8 @@ function validarFormulario() {
     document.getElementById("formulario").submit();
   }
 /////////////////////////////////////////////////////////////////////////////
+
+//* Función para calcular los años de mi edad automaticamente
   
   function calcularEdad(fechaNacimiento) {
     var hoy = new Date();
