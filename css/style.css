@@ -75,8 +75,12 @@
     margin-top: 3px;
       }
 
-  form input {
-    padding-right: 10px;
+  form label{
+    padding-left: 10px;
+  }
+
+  form button{
+    margin-left: 10px
   }
 
 
